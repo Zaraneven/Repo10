@@ -4,7 +4,7 @@ var lion = {
     tails: 1,
 
 }
-function myFunction(roar){
+function myFunction(roar, roarroar){
     lion["roar"] = "roar-roar";
     return lion;
 
