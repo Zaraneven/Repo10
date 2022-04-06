@@ -4,11 +4,11 @@ var lion = {
     tails: 1,
 
 }
-function myFunction(roar, roarroar){
-    lion["roar"] = "roar-roar";
+function myFunction(attribute, value){
+    lion[attribute] = value;
     return lion;
 
 
 }
-console.log(myFunction("roar"));
+console.log(myFunction("roar", "roar-roar"));
 module.exports = myFunction;

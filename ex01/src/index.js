@@ -3,7 +3,7 @@ var myPet = {
     species: "bichon",
     name: "Mona",
     legs: 4,
-    friends: "Rex " + " Mimi",
+    friends: ["Rex ", "Mimi"],
 }
 
 

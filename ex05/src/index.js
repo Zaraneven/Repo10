@@ -4,7 +4,7 @@ var school = {
     established: 2020,
 }
 function myFunction(name){
-    school['name'] = "Paragon";
+    school['name'] = name;
     return school;
 }
 console.log(myFunction("Paragon"));
